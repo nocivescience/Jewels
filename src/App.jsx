@@ -49,7 +49,7 @@ function App() {
     }])
   }
   return (
-      <BrowserRouter>
+      <BrowserRouter basename='/Jewels'>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
